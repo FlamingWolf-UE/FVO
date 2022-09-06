@@ -1,4 +1,4 @@
-window.onload = readTextFile("FVO/json/data.json", function(text){
+window.onload = readTextFile("https://FlamingWolf-UE/FVO/json/data.json", function(text){
     var data = JSON.parse(text);
     console.log(data);
     buildPage(data);
